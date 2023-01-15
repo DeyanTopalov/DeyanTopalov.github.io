@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.container 
+-let;s do this in the html class tag using bootstrap's
+ "h-100" and "w-100"{*/
+
+h1 {
+  font-size: 3rem;
+  color: rgba(2, 22, 69, 1);
+}
+
+hr {
+/*  border-color: rgba(2, 22, 69, 1);*/
+    margin: 20px auto;
+/*    color: rgba(2, 22, 69, 1);*/
+    color: rgba(2, 22, 69, 1);
+    border: 3px solid rgba(2, 22, 69, 1);
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: rgba(2, 22, 69, 1);
+/*  font-weight: bold;*/
+  border-color: white;
+
+}
+
+.btn-primary:hover {
+  background-color: rgba(2, 22, 110, 1);
+  border-color: white;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+
+}
